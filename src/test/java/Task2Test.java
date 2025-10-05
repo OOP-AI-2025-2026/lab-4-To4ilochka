@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
+import ua.opnu.account.MinMaxAccount;
 import ua.opnu.java.inheritance.account.Credit;
 import ua.opnu.java.inheritance.account.Debit;
 import ua.opnu.java.inheritance.account.Startup;
