@@ -1,3 +1,5 @@
+package ua.opnu.lab.account;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import ua.opnu.java.inheritance.account.Credit;

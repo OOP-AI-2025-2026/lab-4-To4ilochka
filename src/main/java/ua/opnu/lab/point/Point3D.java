@@ -1,4 +1,4 @@
-package ua.opnu.point;
+package ua.opnu.lab.point;
 
 import ua.opnu.java.inheritance.point.Point;
 

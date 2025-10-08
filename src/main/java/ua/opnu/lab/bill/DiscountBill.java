@@ -1,4 +1,4 @@
-package ua.opnu.bill;
+package ua.opnu.lab.bill;
 
 import ua.opnu.java.inheritance.bill.Employee;
 import ua.opnu.java.inheritance.bill.GroceryBill;
