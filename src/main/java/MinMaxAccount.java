@@ -1,5 +1,3 @@
-package ua.opnu.lab.account;
-
 import ua.opnu.java.inheritance.account.BankingAccount;
 import ua.opnu.java.inheritance.account.Credit;
 import ua.opnu.java.inheritance.account.Debit;
