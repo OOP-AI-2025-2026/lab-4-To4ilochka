@@ -19,10 +19,8 @@ public class DiscountBill extends GroceryBill {
 
     @Override
     public void add(Item i) {
-        // Додаємо товар, дозволяючи батьківському класу GroceryBill обчислити повну суму
         super.add(i);
 
-        // Облік знижок лише для постійних клієнтів
         if (isBuyerRegular) {
             double itemDiscount = i.getDiscount();
             if (itemDiscount > 0.0) {
