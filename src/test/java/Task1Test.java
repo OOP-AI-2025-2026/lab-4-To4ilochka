@@ -15,7 +15,7 @@ public class Task1Test {
         void test1() {
             DiscountBill bill = new DiscountBill(new Employee("clerk-1"), true);
             String expected = "clerk-1";
-            assertEquals(expected, bill.getClerk().getName());
+            assertEquals(expected, bill.getClerk().name());
         }
 
         @org.junit.jupiter.api.Test
@@ -23,7 +23,7 @@ public class Task1Test {
         void test2() {
             DiscountBill bill = new DiscountBill(new Employee("clerk-2"), false);
             String expected = "clerk-2";
-            assertEquals(expected, bill.getClerk().getName());
+            assertEquals(expected, bill.getClerk().name());
         }
 
         @org.junit.jupiter.api.Test
